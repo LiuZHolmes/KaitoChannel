@@ -1,6 +1,6 @@
 # kaitochannel
 
-> A Vue.js project
+> A project from Persona5
 
 ## Build Setup
 
