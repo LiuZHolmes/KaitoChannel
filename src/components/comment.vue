@@ -39,7 +39,6 @@ img{
 }
 p{
     position:absolute;
-    text-aligh:left;
     top:0;
     left:0;
     right:0;
