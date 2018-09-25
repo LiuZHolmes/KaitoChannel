@@ -1,5 +1,6 @@
 <template>
     <li>
+        <img src='@/assets/comment.png' alt=''>
         <p>{{title}}</p>
     </li>
 </template>
@@ -19,12 +20,29 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 @font-face {
-    font-family: 'Persona';
-    src: url('../assets/PersonaTitle.ttf')
+    font-family: 'Heiti';
+    src: url('../assets/Heiti.ttf');
 }
 li {
-    font-family: Persona;
-    font-size: 30px;
+    position:relative;
+    font-family: Heiti;
+    font-size: 20px;
     color: #000000;
+    text-shadow:#FFFFFF 1px 0 0,#FFFFFF 0 1px 0,#FFFFFF -1px 0 0,#FFFFFF 0 -1px 0;
+    *filter:GLow(color=#FFFFFF,strengh=1);
 } 
+img{
+    width:350px;
+    height:auto;
+    position:inherit;
+    z-index: -1;
+}
+p{
+    position:absolute;
+    text-aligh:left;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 0;
+}
 </style>
