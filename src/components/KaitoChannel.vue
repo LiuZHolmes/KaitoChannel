@@ -73,4 +73,11 @@ ul {
     list-style:none;
     overflow-y:scroll;
 }
+textarea {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: visible;
+}
 </style>
